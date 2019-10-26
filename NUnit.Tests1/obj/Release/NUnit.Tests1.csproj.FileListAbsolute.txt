@@ -1,0 +1,16 @@
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Release\NUnit3.TestAdapter.dll
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Release\NUnit3.TestAdapter.pdb
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Release\nunit.engine.dll
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Release\nunit.engine.api.dll
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Release\NUnit.Tests1.dll
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Release\NUnit.Tests1.pdb
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Release\nunit.framework.dll
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Release\WebDriver.dll
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Release\WebDriver.Support.dll
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Release\nunit.framework.pdb
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Release\nunit.framework.xml
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Release\WebDriver.xml
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\bin\Release\WebDriver.Support.xml
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\obj\Release\NUnit.Tests1.csproj.CopyComplete
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\obj\Release\NUnit.Tests1.dll
+C:\Users\no4good\source\repos\NUnit.Tests1\NUnit.Tests1\obj\Release\NUnit.Tests1.pdb
