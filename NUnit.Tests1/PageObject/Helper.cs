@@ -30,7 +30,7 @@ namespace NUnit.Tests1.PageObject
 
         public void signOut(IWebDriver driver)
         {
-          
+            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("span.bAq")));
             wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("span.gb_xa"))).Click();
             wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("a#gb_71"))).Click();
           

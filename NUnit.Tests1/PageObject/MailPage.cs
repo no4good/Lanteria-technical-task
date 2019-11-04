@@ -49,8 +49,6 @@ namespace NUnit.Tests1.PageObject
             wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.ae4.UI div.oZ-jc"))).Click();
             wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.Bn"))).Click();
             
-
-
         }
 
 
