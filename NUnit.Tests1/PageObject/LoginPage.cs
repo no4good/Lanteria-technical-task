@@ -45,7 +45,7 @@ namespace NUnit.Tests1.PageObject
             buttonSignIn.Click();
             emailTextField.SendKeys("lanteria.technica.ltask@gmail.com");
             buttonIdentifierNext.Click();
-            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("input[type='password']"))).SendKeys("rokdestbob322");
+            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("input[type='password']"))).SendKeys("lanteria597");
             wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector("#passwordNext"))).Click();
         }
 
