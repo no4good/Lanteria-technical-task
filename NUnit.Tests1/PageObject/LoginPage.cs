@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ namespace NUnit.Tests1.PageObject
     {
         private IWebDriver driver;
         private WebDriverWait wait;
+        
 
         public LoginPage(IWebDriver driver)
         {
@@ -32,7 +34,10 @@ namespace NUnit.Tests1.PageObject
 
         public void navigateToGooglePage()
         {
+           
             driver.Navigate().GoToUrl("https://www.google.com/");
+          
+
         }
 
         public void navigateToSignInPage()

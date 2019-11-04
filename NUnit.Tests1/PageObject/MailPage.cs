@@ -39,14 +39,14 @@ namespace NUnit.Tests1.PageObject
 
         public void updateDraft(IWebDriver driver)
         {
-            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.xS"))).Click();
+            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.ae4.UI div.xS"))).Click();
             wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("input.aoT"))).SendKeys(".Update");
             wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("img.Ha"))).Click();
 
         }
         public void deleteDraft(IWebDriver driver)
         {
-            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.oZ-jc"))).Click();
+            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.ae4.UI div.oZ-jc"))).Click();
             wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.Bn"))).Click();
             
 

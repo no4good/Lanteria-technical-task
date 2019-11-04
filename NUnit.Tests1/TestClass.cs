@@ -25,7 +25,7 @@ namespace NUnit.Tests1
         }
 
         [Test]
-        public void SearchTextFromAboutPage()
+        public void CreateDraft()
         {
 
             
@@ -37,15 +37,9 @@ namespace NUnit.Tests1
             MailPage mail = new MailPage(driver);
             mail.openDraftPage(driver);
             mail.crateDraft(driver);
-
-            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.y6 span.bog span")));
-            IWebElement nameDraft = driver.FindElement(By.CssSelector("div.y6 span.bog span"));
-            Assert.AreEqual("lanteria.technica.ltask", nameDraft.Text, "The draft wasn’t created!");
-
+            helper.drafCreationCheck(driver);
             mail.updateDraft(driver);
-            wait.Until(ExpectedConditions.ElementExists(By.CssSelector("img.Ha")));
-            IWebElement updateDraft = driver.FindElement(By.CssSelector("div.y6 span.bog span"));
-            Assert.AreEqual("lanteria.technica.ltask.Update", updateDraft.Text, "The draft wasn’t updated!");
+            helper.drafUpdateCheck(driver);
             mail.deleteDraft(driver);
             helper.signOut(driver);
           

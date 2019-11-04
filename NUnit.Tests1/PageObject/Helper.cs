@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.PageObjects;
 using OpenQA.Selenium.Support.UI;
@@ -31,8 +33,23 @@ namespace NUnit.Tests1.PageObject
           
             wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("span.gb_xa"))).Click();
             wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("a#gb_71"))).Click();
-           
+          
+        }
+        public void drafCreationCheck(IWebDriver driver)
+        {
 
+            wait.Until(ExpectedConditions.ElementExists(By.CssSelector("img.Ha")));
+            wait.Until(ExpectedConditions.ElementExists(By.CssSelector("div.y6 span.bog span")));
+            ReadOnlyCollection<IWebElement> drafts = driver.FindElements(By.CssSelector("div.ae4.UI div.y6 span.bog span"));
+            Assert.AreEqual("lanteria.technica.ltask", drafts[0].Text, "The draft wasn’t created!");
+        }
+
+        public void drafUpdateCheck(IWebDriver driver)
+        {
+
+            wait.Until(ExpectedConditions.ElementExists(By.CssSelector("img.Ha")));
+            ReadOnlyCollection<IWebElement> updateDraft = driver.FindElements(By.CssSelector("div.ae4.UI div.y6 span.bog span"));
+            Assert.AreEqual("lanteria.technica.ltask.Update", updateDraft[0].Text, "The draft wasn’t updated!");
         }
     }
 }
